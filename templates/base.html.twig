@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css">
         <link rel="stylesheet" href="{{ asset('vendor/font-awesome/css/font-awesome.min.css') }}" type="text/css">
         <link rel="stylesheet" href="{{ asset('vendor/simple-line-icons/css/simple-line-icons.css') }}" type="text/css">
-        <link rel="stylesheet" href="{{ asset('css/landing-page.min.css') }}" type="text/css">
+        <link rel="stylesheet" href="{{ asset('css/landing-page.css') }}" type="text/css">
 
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     {% endblock %}
@@ -63,7 +63,7 @@
                     </li>
                     <li class="list-inline-item">
                         <a href="#">
-                            <i class="fa fa-instagram fa-2x fa-fw"></i>
+                            <i class="fa fa-instagram fa-2x"></i>
                         </a>
                     </li>
                 </ul>
@@ -73,7 +73,7 @@
 </footer>
 {% block javascripts %}
     <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 {% endblock %}
 </body>
 </html>
